@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Animation Screen Settings" >
+
+    <PreferenceCategory android:title="Color Chooser" >
+        <Preference
+            android:key="color_dialog"
+            android:summary="Show a color picker dialog and return the chosen color to be used by the animation application."
+            android:title="Edit Background Color" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Frames Per Second" >
+        <Preference
+            android:key="fps_dialog"
+            android:summary="Show a dialog with a slider to choose the frames per second"
+            android:title="Edit FPS" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

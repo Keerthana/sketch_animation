@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.cs349.mColorChooser.ColorChooserView
+        android:id="@+id/color_chooser_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/color_chooser_view"
+        android:layout_alignRight="@id/color_chooser_view"
+        android:layout_below="@id/color_chooser_view"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+        
+		<com.cs349.mColorChooser.ColorPanelView
+			android:id="@+id/new_color_panel"
+			android:layout_width="0px"
+			android:layout_height="fill_parent"
+			android:layout_weight="0.5" />
+    </LinearLayout>
+
+</RelativeLayout>

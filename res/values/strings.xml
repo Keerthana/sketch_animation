@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CS349 A5</string>
+    <string name="android_main">CS349 Assignment 5</string>
+    <string name="android_main_button">Choose file to animate</string>
+    <string name="file_choose">FileChooser</string>
+    <string name="parse_file">Parse XML File</string>
+    <string name="settings_menu">Edit FPS and Color</string>
+    <string name="menu_settings">Settings</string>
+    <string name="fps_string">Frames Per Second:</string>    
+</resources>
